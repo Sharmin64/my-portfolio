@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
 import {PropagateLoader} from "react-spinners";
-import logo from "/MLogo.png";
+import logo from "/Slogo.jpeg";
 import {motion} from "framer-motion";
 
 const App = () => {

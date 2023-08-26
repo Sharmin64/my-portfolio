@@ -1,13 +1,13 @@
 import React from "react";
-import html from "../assets/html-logo.png";
-import css from "../assets/css-logo.png";
-import javascript from "../assets/js_logo.png";
-import bootstrap from "../assets/bs.png";
-import tailwind from "../assets/tailwind (1).png";
-import react from "../assets/reeact.png";
-import node from "../assets/Noode.png";
-import mongo from "../assets/mongodb.png";
-import express from "../assets/express.png";
+import html from "../assets/projects/html-logo.png";
+import css from "../assets/projects/css-logo.png";
+import javascript from "../assets/projects/js_logo.png";
+import bootstrap from "../assets/projects/bs.png";
+import tailwind from "../assets/projects/tailwind (1).png";
+import react from "../assets/projects/reeact.png";
+import node from "../assets/projects/Noode.png";
+import mongo from "../assets/projects/mongodb.png";
+import express from "../assets/projects/express.png";
 
 import {motion} from "framer-motion";
 import {fadein} from "../hooks/fadein";

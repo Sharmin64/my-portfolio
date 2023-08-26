@@ -20,7 +20,7 @@ const SectionTitle = ({heading}) => {
         initial="hidden"
         whileInView={"show"}
         viewport={{once: false, amount: 0.5}}
-        className="border-2 border-cyan-600 mx-auto w-[220px] mt-2"
+        className="border-2 border-sky-600 mx-auto w-[220px] mt-2"
       />
     </div>
   );

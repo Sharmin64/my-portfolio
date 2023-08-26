@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/MLogo.png";
+import logo from "/logoS.png";
 import {Link} from "react-scroll";
 import {MdWorkHistory} from "react-icons/md";
 

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
 import React, {useEffect, useState} from "react";
-import banner from "../assets/Banner-img.png";
+import liza from "../assets/projects/liza.jpg";
 import {
   BsFacebook,
   BsGithub,
@@ -10,7 +10,7 @@ import {
   BsDownload,
 } from "react-icons/bs";
 import {SiGmail} from "react-icons/si";
-import {TypeAnimation} from "react-type-animation";
+//import {TypeAnimation} from "react-type-animation";
 import {motion} from "framer-motion";
 import {fadein} from "../hooks/fadein";
 import TextTransition, {presets} from "react-text-transition";
@@ -49,7 +49,7 @@ const Banner = () => {
               viewport={{once: false, amount: 0.7}}
               className="text-[55px] font-bold leading-[1] lg:text-[110px] text-color uppercase"
             >
-              Mahabub Ahmed
+              Sharmin Sultana
             </motion.h1>
             <motion.div
               variants={fadein("left", 0.3)}
@@ -119,11 +119,7 @@ const Banner = () => {
                 viewport={{once: false, amount: 0.7}}
                 className="max-w-max mx-auto mt-6 lg:mx-0"
               >
-                <a
-                  // href="https://drive.google.com/file/d/1mPTgLk00YEfKOAqL5xaw368dhHroO-_9/view"
-                  href="/Resume-(Mahabub Ahmed).pdf"
-                  target="_blank"
-                >
+                <a href="/Sharmin_resume.pdf" target="_blank">
                   <button className="flex items-center justify-center gap-2 btn-main">
                     Resume
                     <BsDownload className="hover:animate-bounce transition-all" />
@@ -140,7 +136,7 @@ const Banner = () => {
             className="hidden lg:flex flex-1 mx-auto max-w-max"
           >
             <img
-              src={banner}
+              src={liza}
               alt="banner"
               className="rounded-full h-full mix-blend-lighten"
             />

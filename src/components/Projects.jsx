@@ -1,22 +1,19 @@
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable react/jsx-key */
-/* eslint-disable no-undef */
 import React from "react";
 import {motion} from "framer-motion";
 import {fadein} from "../hooks/fadein";
-import img1 from "../assets/projects/Golden-1.jpg";
-import img2 from "../assets/projects/Playful-1.jpg";
-import img3 from "../assets/projects/Kitchen-1.jpg";
-import img4 from "../assets/projects/Point-1.jpg";
+import img1 from "../assets/logoman/corepower/coreK.jpeg";
+import img2 from "../assets/logoman/toyland/dollT.jpeg";
+import img3 from "../assets/logoman/foodValley/chef_2.jpg";
+//import img4 from "../assets/projects/Point-1.jpg";
 // import img5 from "../assets/portfolio-img2.png";
 // import img6 from "../assets/portfolio-img3.png";
 
-import logo1 from "../assets/reeact.png";
+import logo1 from "../assets/projects/reeact.png";
 // import logo2 from "../assets/css-logo.png";
 // import logo3 from "../assets/html-logo.png";
-import logo4 from "../assets/mongodb.png";
-import logo5 from "../assets/tailwind (1).png";
-import logo6 from "../assets/express.png";
+import logo4 from "../assets/projects/mongodb.png";
+import logo5 from "../assets/projects/tailwind (1).png";
+import logo6 from "../assets/projects/express.png";
 // import logo7 from "../assets/js_logo.png";
 import SectionTitle from "../hooks/SectionTitle.jsx";
 
@@ -25,7 +22,7 @@ import {TbWorld, TbCode, TbCodeCircle} from "react-icons/tb";
 const projects = [
   {
     image: img1,
-    title: "Golden Peaks",
+    title: "Core Power",
     details: "Summer camp full MERN web application.",
     technologies: [
       {image: logo1},
@@ -33,13 +30,13 @@ const projects = [
       {image: logo6},
       {image: logo5},
     ],
-    liveLink: "https://assignment-12-1c977.web.app/",
-    clientCode: "https://github.com/Astro177/Golden-Peaks-Client",
-    serverCode: "https://github.com/Astro177/Golden-Peaks-Server",
+    liveLink: "https://assignment-12-summer-camp.web.app",
+    clientCode: "https://github.com/Sharmin64/yoga-camp-client",
+    serverCode: "https://github.com/Sharmin64/yoga-camp-server",
   },
   {
     image: img2,
-    title: "Playful Delights",
+    title: "Kid Castle",
     details: "Toy store full MERN web application.",
     technologies: [
       {image: logo1},
@@ -47,27 +44,27 @@ const projects = [
       {image: logo6},
       {image: logo5},
     ],
-    liveLink: "https://assignment-11-a4819.web.app/",
-    clientCode: "https://github.com/Astro177/Playful-Delights",
-    serverCode: "https://github.com/Astro177/Playful-Delights-server",
+    liveLink: "https://assignment-11-toy-firebase.web.app",
+    clientCode: "https://github.com/Sharmin64/kid-castle",
+    serverCode: "https://github.com/Sharmin64/kid-castle-server",
   },
   {
     image: img3,
-    title: "Kitchen Diaries",
+    title: "Food Valley",
     details: "Chef and food details full React web application.",
     technologies: [{image: logo1}, {image: logo6}, {image: logo5}],
-    liveLink: "https://assignment-12-1c977.web.app/",
-    clientCode: "https://github.com/Astro177/Golden-Peaks-Client",
-    serverCode: "https://github.com/Astro177/Golden-Peaks-Server",
+    liveLink: "https://assign-10-chef-hunt-client.web.app",
+    clientCode: "https://github.com/Sharmin64/chief-hunt-client",
+    serverCode: "https://github.com/Sharmin64/chief-hunt-server",
   },
-  {
-    image: img4,
-    title: "Opportunities Point",
-    details: "Job hunting full React web application.",
-    technologies: [{image: logo1}, {image: logo6}, {image: logo5}],
-    liveLink: "https://exquisite-baklava-16bf3e.netlify.app/",
-    clientCode: "https://github.com/Astro177/Opprtunity-Point",
-  },
+  //{
+  //  image: img4,
+  //  title: "Opportunities Point",
+  //  details: "Job hunting full React web application.",
+  //  technologies: [{image: logo1}, {image: logo6}, {image: logo5}],
+  //  liveLink: "https://exquisite-baklava-16bf3e.netlify.app/",
+  //  clientCode: "https://github.com/Astro177/Opprtunity-Point",
+  //},
   //   {
   //     image: `${img1}`,
   //     title: "Golden Peaks",
@@ -154,20 +151,21 @@ const Projects = () => {
                 ))}
               </div>
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 flex sm:gap-0 md:gap-4">
-                <a href={project.liveLink} target="_blank">
+                <a href={project.liveLink}>
                   <button className="project-btn flex items-center gap-2">
                     <TbWorld className="hover:animate-spin" />
                     Live
                   </button>
                 </a>
-                <a href={project.clientCode} target="_blank">
+                <a href={project.clientCode}>
                   <button className="project-btn flex items-center gap-2">
                     <TbCode className="hover:animate-spin" />
                     Client
                   </button>
                 </a>
                 {project.serverCode ? (
-                  <a href={project.serverCode} target="_blank">
+                  //<a href={project.serverCode} target="_blank">
+                  <a href={project.serverCode}>
                     <button className="project-btn flex items-center gap-2">
                       <TbCodeCircle className="hover:animate-spin" />
                       Server
