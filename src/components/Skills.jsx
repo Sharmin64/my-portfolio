@@ -11,7 +11,7 @@ import express from "../assets/express.png";
 
 import {motion} from "framer-motion";
 import {fadein} from "../hooks/fadein";
-import SectionTitle from "../hooks/SectionTitle";
+import SectionTitle from "../hooks/SectionTitle.jsx";
 
 const Skills = () => {
   return (
