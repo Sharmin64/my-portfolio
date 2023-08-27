@@ -26,18 +26,26 @@ const Skills = () => {
           className="grid grid-cols-4 h-20 flex-grow card rounded-box place-items-center gap-1 md:gap-8 lg:gap-1"
         >
           <div className="flex flex-col justify-center items-center">
-            <img src={html} alt="" className="w-16 rounded-full nav-hover" />
+            <img
+              src={html}
+              alt=""
+              className="w-16  hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            />
             <p className="font-secondary font-semibold">HTML</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img src={css} alt="" className="w-16 rounded-full nav-hover" />
+            <img
+              src={css}
+              alt=""
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            />
             <p className="font-secondary font-semibold">CSS</p>
           </div>
           <div className="flex flex-col justify-center items-center">
             <img
               src={javascript}
               alt=""
-              className="w-16 rounded-full nav-hover"
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
             />
             <p className="font-secondary font-semibold">JAVASCRIPT</p>
           </div>
@@ -45,12 +53,12 @@ const Skills = () => {
             <img
               src={bootstrap}
               alt=""
-              className="w-16 rounded-full nav-hover"
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
             />
             <p className="font-secondary font-semibold">BOOTSTRAP</p>
           </div>
         </motion.div>
-        <div className="divider divider-horizontal border-cyan-700 border-x-2"></div>
+        <div className="divider divider-horizontal border-sky-700 border-x-2"></div>
         <motion.div
           variants={fadein("left", 0.4)}
           initial="hidden"
@@ -62,24 +70,40 @@ const Skills = () => {
             <img
               src={tailwind}
               alt=""
-              className="w-16 rounded-full nav-hover"
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
             />
             <p className="font-secondary font-semibold">TAILWIND</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img src={react} alt="" className="w-16 rounded-full nav-hover" />
+            <img
+              src={react}
+              alt=""
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            />
             <p className="font-secondary font-semibold">ReactJS</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img src={node} alt="" className="w-16 rounded-full nav-hover" />
+            <img
+              src={node}
+              alt=""
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            />
             <p className="font-secondary font-semibold">NODE</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img src={mongo} alt="" className="w-16 rounded-full nav-hover" />
+            <img
+              src={mongo}
+              alt=""
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            />
             <p className="font-secondary font-semibold">MongoDB</p>
           </div>
           <div className="flex flex-col justify-center items-center">
-            <img src={express} alt="" className="w-16 rounded-full nav-hover" />
+            <img
+              src={express}
+              alt=""
+              className="w-16 hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            />
             <p className="font-secondary font-semibold">ExpressJS</p>
           </div>
         </motion.div>

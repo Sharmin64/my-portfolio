@@ -47,7 +47,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{once: false, amount: 0.7}}
-              className="text-[55px] font-bold leading-[1] lg:text-[110px] bg-gradient-to-r from-sky-400 via-sky-400 to-sky-600 text-transparent bg-clip-text only:uppercase"
+              className="text-[55px] font-bold leading-[1] lg:text-[110px] bg-gradient-to-r from-sky-400 via-sky-400 to-sky-600 text-transparent bg-clip-text uppercase"
             >
               Sharmin Sultana
             </motion.h1>
