@@ -74,14 +74,16 @@ const Services = () => {
             viewport={{once: false, amount: 0.3}}
             className="flex-1 mb-12 lg:mb-0"
           >
-            <h2 className="text-color h2 font-semibold mb-6">What I Offer</h2>
-            <h3 className="h3 max-w-[455px] mb-16">
-              I offer full-stack development, customized web applications,
+            <h2 className="bg-gradient-to-r from-sky-400 via-sky-400 to-sky-600 text-transparent bg-clip-text font-primary text-[32px] tracking-[10%] uppercase font-semibold mb-6">
+              What I Offer
+            </h2>
+            <h3 className="font-secondery font-semibold text-[26px] mb-6 leading-[46px] max-w-[455px] lg:mb-16">
+              I offer front-end development, customized web applications,
               responsive and interactive UI/UX, API development, database
               integration, and performance optimization.
             </h3>
             <Link to="projects" smooth={true}>
-              <button className="btn-main flex items-center gap-2">
+              <button className="font-semibold drop-shadow-2xl px-4 py-2 md:px-8 md:py-3 text-lg rounded-full bg-transparent text-white hover:bg-gradient-to-r hover:from-sky-600 hover:via-sky-400 hover:to-sky-500 border-2 border-sky-500 hover:border-sky-400 hover:text-black hover:scale-110 transition duration-200 flex items-center gap-2">
                 <MdWorkHistory />
                 See My Work
               </button>
