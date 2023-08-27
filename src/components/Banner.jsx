@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/jsx-no-target-blank */
 import React, {useEffect, useState} from "react";
-import liza from "../assets/projects/liza.jpg";
+import liza from "../assets/projects/BannerMe-removebg.png";
 import {
   BsFacebook,
   BsGithub,
@@ -47,7 +47,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{once: false, amount: 0.7}}
-              className="text-[55px] font-bold leading-[1] lg:text-[110px] text-color uppercase"
+              className="text-[55px] font-bold leading-[1] lg:text-[110px] bg-gradient-to-r from-sky-400 via-sky-400 to-sky-600 text-transparent bg-clip-text only:uppercase"
             >
               Sharmin Sultana
             </motion.h1>
@@ -60,24 +60,24 @@ const Banner = () => {
             >
               <div className="lg:flex">
                 <span className="mr-4">I'm a</span>
-                {/* <TypeAnimation
-                sequence={[
-                  "MERN Stack Developer",
-                  2000,
-                  "React.JS Developer",
-                  2000,
-                  "Front End Developer",
-                  2000,
-                ]}
-                speed={50}
-                wrapper="span"
-                repeat={Infinity}
-                className="text-color"
-              /> */}
-                <span className="text-cyan-400 flex items-center justify-center md:text-4xl lg:text-[60px]">
+                {/*<TypeAnimation
+                  sequence={[
+                    "MERN Stack Developer",
+                    2000,
+                    "React.JS Developer",
+                    2000,
+                    "Front End Developer",
+                    2000,
+                  ]}
+                  speed={50}
+                  wrapper="span"
+                  repeat={Infinity}
+                  className="text-color"
+                />*/}
+                <span className="text-sky-400 flex items-center justify-center md:text-4xl lg:text-[60px]">
                   <TextTransition springConfig={presets.gentle}>
                     {TEXTS[index % TEXTS.length]}
-                  </TextTransition>{" "}
+                  </TextTransition>
                 </span>
               </div>
               <motion.div
@@ -89,27 +89,27 @@ const Banner = () => {
               >
                 <a
                   target="_blank"
-                  href="https://www.facebook.com/mahabub.ahmmed.52/"
+                  href="https://www.facebook.com/sharmin.liza.5245hibnrrt"
                 >
-                  <BsFacebook className="nav-hover" />
+                  <BsFacebook className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
                 </a>
-                <a target="_blank" href="https://github.com/Astro177">
-                  <BsGithub className="nav-hover" />
+                <a target="_blank" href="https://github.com/Sharmin64">
+                  <BsGithub className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
                 </a>
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/mahabub_tro/"
+                  href="https://www.instagram.com/sharmin.liza.5245hibnrrt"
                 >
-                  <BsInstagram className="nav-hover" />
+                  <BsInstagram className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
                 </a>
                 <a
                   target="_blank"
-                  href="https://www.linkedin.com/in/mahabub-ahmed-683490278/"
+                  href="https://www.linkedin.com/in/sarmin-sultana-34a385280"
                 >
-                  <BsLinkedin className="nav-hover" />
+                  <BsLinkedin className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
                 </a>
-                <a target="_blank" href="mailto:mahabub.ahmed175@gmail.com">
-                  <SiGmail className="nav-hover" />
+                <a target="_blank" href="mailto:sharminsultana2127@gmail.com">
+                  <SiGmail className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
                 </a>
               </motion.div>
               <motion.div
@@ -120,7 +120,7 @@ const Banner = () => {
                 className="max-w-max mx-auto mt-6 lg:mx-0"
               >
                 <a href="/Sharmin_resume.pdf" target="_blank">
-                  <button className="flex items-center justify-center gap-2 btn-main">
+                  <button className="flex items-center justify-center gap-2 font-semibold drop-shadow-2xl px-4 py-2 md:px-8 md:py-3 text-lg rounded-full bg-transparent text-white hover:bg-gradient-to-r hover:from-sky-600 hover:via-sky-400 hover:to-sky-500 border-2 border-sky-500 hover:border-sky-400 hover:text-black hover:scale-110 transition duration-200">
                     Resume
                     <BsDownload className="hover:animate-bounce transition-all" />
                   </button>
