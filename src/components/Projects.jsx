@@ -140,7 +140,7 @@ const Projects = () => {
                 <a href={project.clientCode}>
                   <button className="font-semibold drop-shadow-2xl px-6 py-1 text-lg rounded-md bg-sky-400 text-black border hover: bg-transparent hover:scale-125 transition-all duration-300 border-sky-500 hover:text-white flex items-center gap-2">
                     <TbCode className="hover:animate-spin" />
-                    Client
+                    ClientCode
                   </button>
                 </a>
                 {project.serverCode ? (
