@@ -13,7 +13,7 @@ const ContactMe = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const forms = e.target;
-    const name = forms.name.value;
+    const name = forms.from_name.value;
     emailjs
       .sendForm(
         `${import.meta.env.VITE_SERVICEID}`,
@@ -52,7 +52,9 @@ const ContactMe = () => {
             </h4>
             <h2 className="text-[45px] lg:text-[85px] leading-none mb-12 font-medium">
               Let's Work <br />
-              <span className="text-color">Together!</span>
+              <span className="bg-gradient-to-r from-sky-400 via-sky-400 to-sky-600 text-transparent bg-clip-text">
+                Together!
+              </span>
             </h2>
           </motion.div>
           <motion.form
@@ -67,13 +69,13 @@ const ContactMe = () => {
             <input
               type="text"
               placeholder="Your Name"
-              name="name"
+              name="from_name"
               className="bg-transparent border-b py-3 outline-none w-full focus:border-cyan-500 transition duration-200"
             />
             <input
               type="email"
               placeholder="Your Email"
-              name="email"
+              name="from_email"
               className="bg-transparent border-b py-3 outline-none w-full focus:border-cyan-500 transition-all"
             />
             <textarea

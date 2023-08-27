@@ -61,7 +61,7 @@ const AboutMe = () => {
                 <MdWhatsapp className="hover:animate-bounce" /> +8801858110146
               </div>
               <div className="flex gap-2 items-center">
-                <MdEmail className="hover:animate-bounce" />{" "}
+                <MdEmail className="hover:animate-bounce" />
                 sharminsultana2127@gmail.com
               </div>
             </div>

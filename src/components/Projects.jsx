@@ -4,6 +4,7 @@ import {fadein} from "../hooks/fadein";
 import img1 from "../assets/logoman/corepower/coreK.jpeg";
 import img2 from "../assets/logoman/toyland/dollT.jpeg";
 import img3 from "../assets/logoman/foodValley/chef_2.jpg";
+import img4 from "../assets/projects/job-portal-1.jpg";
 //import img4 from "../assets/projects/Point-1.jpg";
 // import img5 from "../assets/portfolio-img2.png";
 // import img6 from "../assets/portfolio-img3.png";
@@ -57,14 +58,14 @@ const projects = [
     clientCode: "https://github.com/Sharmin64/chief-hunt-client",
     serverCode: "https://github.com/Sharmin64/chief-hunt-server",
   },
-  //{
-  //  image: img4,
-  //  title: "Opportunities Point",
-  //  details: "Job hunting full React web application.",
-  //  technologies: [{image: logo1}, {image: logo6}, {image: logo5}],
-  //  liveLink: "https://exquisite-baklava-16bf3e.netlify.app/",
-  //  clientCode: "https://github.com/Astro177/Opprtunity-Point",
-  //},
+  {
+    image: img4,
+    title: "Job Portals",
+    details: "Job hunting full React web application.",
+    technologies: [{image: logo1}, {image: logo5}],
+    liveLink: "https://gleeful-lebkuchen-c5538f.netlify.app/",
+    clientCode: "https://github.com/Sharmin64/job-portal",
+  },
 ];
 const Projects = () => {
   const handleShow = () => {};
