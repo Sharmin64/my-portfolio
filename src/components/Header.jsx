@@ -8,7 +8,7 @@ const Header = () => {
     <header className="py-8">
       <div className="container mx-auto">
         <div className="flex justify-between items-center">
-          <div className="flex items-center text-color font-primary font-semibold">
+          <div className="flex items-center bg-gradient-to-r from-sky-400 via-sky-400 to-sky-600 text-transparent bg-clip-text font-primary font-semibold">
             <a href="">
               <img
                 src={logo}

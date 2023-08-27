@@ -15,7 +15,7 @@ export default {
     extend: {
       backgroundImage: {
         site: "url('./assets/projects/site-bg.jpg')",
-        about: "url('./assets/projects/aboutme.png')",
+        about: "url('./assets/projects/aboutLiza.png')",
         services: "url('./assets/projects/service.png')",
       },
     },
