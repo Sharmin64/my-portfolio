@@ -14,7 +14,7 @@ const Navbar = () => {
           smooth={true}
           spy={true}
           offset={-200}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center nav-hover"
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
         >
           <BiHomeAlt />
         </Link>
@@ -23,7 +23,8 @@ const Navbar = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center nav-hover"
+          offset={-200}
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
         >
           <BsBriefcase />
         </Link>
@@ -32,7 +33,8 @@ const Navbar = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center nav-hover"
+          offset={-200}
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
         >
           <BsClipboardData />
         </Link>
@@ -41,7 +43,8 @@ const Navbar = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center nav-hover"
+          offset={-200}
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
         >
           <BiUser />
         </Link>
@@ -50,7 +53,8 @@ const Navbar = () => {
           activeClass="active"
           smooth={true}
           spy={true}
-          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center nav-hover"
+          offset={-200}
+          className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
         >
           <BsChatSquareText />
         </Link>
