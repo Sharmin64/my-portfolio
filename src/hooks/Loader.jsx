@@ -10,7 +10,7 @@ const Loader = () => {
         height="200"
         width="200"
         radius="9"
-        color="#07a8D1"
+        color="#1ca3ec"
         ariaLabel="propagateLoader"
         wrapperStyle={{}}
         wrapperClassName=""

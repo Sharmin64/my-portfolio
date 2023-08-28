@@ -2,10 +2,11 @@ import React from "react";
 import logos from "/logoS.png";
 import {BsFacebook, BsGithub, BsInstagram, BsLinkedin} from "react-icons/bs";
 import {Link} from "react-scroll";
+import {MdEmail, MdWhatsapp} from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="mb-36">
+    <div className="mb-36 grid grid-col-2 gap-4">
       <footer className="footer p-10  text-base-content">
         <div>
           <img
@@ -44,24 +45,32 @@ const Footer = () => {
         </div>
         <div>
           <span className="footer-title">Social Contact</span>
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-col-1 gap-4">
             <a href="https://www.facebook.com/sharmin.liza.5245hibnrrt">
-              <BsFacebook className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
+              <BsFacebook className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl text-4xl" />
             </a>
             <a href="https://github.com/Sharmin64">
-              <BsGithub className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
+              <BsGithub className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl text-4xl" />
             </a>
             <a href="https://www.instagram.com/sharmin.liza.5245hibnrrt">
-              <BsInstagram className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
+              <BsInstagram className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl text-4xl" />
             </a>
             <a href="https://www.linkedin.com/in/sarmin-sultana-34a385280">
-              <BsLinkedin className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl" />
+              <BsLinkedin className="hover:bg-sky-400 hover:rounded-full transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl text-4xl" />
             </a>
           </div>
         </div>
       </footer>
-      <div className=" text-center p-4 bg-transparent text-base-content font-semibold text-2xl font-secondary">
+      <div className="flex justify-center text-center p-4 bg-transparent text-base-content font-semibold text-2xl font-secondary">
         <div>
+          <p className=" flex items-center">
+            <MdWhatsapp className="hover:animate-bounce" />
+            <span>+8801858110146</span>
+          </p>
+          <p className="flex items-center">
+            <MdEmail className="hover:animate-bounce" />
+            sharminsultana2127@gmail.com
+          </p>
           <p>Copyright © 2023 - All right reserved</p>
         </div>
       </div>
