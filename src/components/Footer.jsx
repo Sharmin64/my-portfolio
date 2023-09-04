@@ -20,13 +20,13 @@ const Footer = () => {
           <span className="footer-title">Detail</span>
           <Link
             to="about"
-            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center  hover:underline transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center  hover:underline transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl gap-y-2"
           >
             About Me
           </Link>
           <Link
             to="services"
-            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center  hover:underline transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl"
+            className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center  hover:underline transition duration-200 hover:scale-125 rounded-full hover:shadow-2xl gap-y-2"
           >
             Services
           </Link>
@@ -65,7 +65,7 @@ const Footer = () => {
         <div>
           <p className=" flex items-center">
             <MdWhatsapp className="hover:animate-bounce" />
-            <span>+8801858110146</span>
+            +8801858110146
           </p>
           <p className="flex items-center">
             <MdEmail className="hover:animate-bounce" />

@@ -126,6 +126,20 @@ const Banner = () => {
                   </button>
                 </a>
               </motion.div>
+              <motion.div
+                variants={fadein("up", 0.8)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{once: false, amount: 0.7}}
+                className="max-w-max mx-auto mt-6 lg:mx-0"
+              >
+                <a href="/CV_Sharmin_Sultana.pdf" target="_blank">
+                  <button className="flex items-center justify-center gap-2 font-semibold drop-shadow-2xl px-4 py-2 md:px-8 md:py-3 text-lg rounded-full bg-transparent text-white hover:bg-gradient-to-r hover:from-sky-600 hover:via-sky-400 hover:to-sky-500 border-2 border-sky-500 hover:border-sky-400 hover:text-black hover:scale-110 transition duration-200">
+                    Resume
+                    <BsDownload className="hover:animate-bounce transition-all" />
+                  </button>
+                </a>
+              </motion.div>
             </motion.div>
           </div>
           <motion.div
