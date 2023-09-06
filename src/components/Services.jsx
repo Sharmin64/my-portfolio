@@ -62,7 +62,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="container mx-auto">
+    <section id="services" className="container mx-auto px-10">
       <Skills />
       <div className="mt-24">
         <SectionTitle heading="SERVICES" />

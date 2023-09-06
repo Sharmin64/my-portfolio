@@ -36,7 +36,7 @@ const ContactMe = () => {
   return (
     <section
       id="contact"
-      className="my-16 mt-32 py-8 lg:py-24 lg:h-screen flex items-center"
+      className="my-16 mt-32 py-8 px-10 lg:py-24 lg:h-screen flex items-center"
     >
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">

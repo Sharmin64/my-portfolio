@@ -2,20 +2,14 @@ import React from "react";
 import {motion} from "framer-motion";
 import {fadein} from "../hooks/fadein";
 import img1 from "../assets/logoman/corepower/coreK.jpeg";
-import img2 from "../assets/logoman/toyland/dollT.jpeg";
+import img2 from "../assets/logoman/toyland/barbiG.jpg";
 import img3 from "../assets/logoman/foodValley/chef_2.jpg";
 import img4 from "../assets/projects/job-portal-1.jpg";
-//import img4 from "../assets/projects/Point-1.jpg";
-// import img5 from "../assets/portfolio-img2.png";
-// import img6 from "../assets/portfolio-img3.png";
 
 import logo1 from "../assets/projects/reeact.png";
-// import logo2 from "../assets/css-logo.png";
-// import logo3 from "../assets/html-logo.png";
 import logo4 from "../assets/projects/mongodb.png";
 import logo5 from "../assets/projects/tailwind (1).png";
 import logo6 from "../assets/projects/express.png";
-// import logo7 from "../assets/js_logo.png";
 import SectionTitle from "../hooks/SectionTitle.jsx";
 
 import {TbWorld, TbCode, TbCodeCircle} from "react-icons/tb";
@@ -63,7 +57,7 @@ const projects = [
     title: "Job Portals",
     details: "Job hunting full React web application.",
     technologies: [{image: logo1}, {image: logo5}],
-    liveLink: "https://gleeful-lebkuchen-c5538f.netlify.app/",
+    liveLink: "https://gleeful-lebkuchen-c5538f.netlify.app",
     clientCode: "https://github.com/Sharmin64/job-portal",
   },
 ];
@@ -71,7 +65,7 @@ const Projects = () => {
   const handleShow = () => {};
   return (
     <section id="projects" className="">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-10">
         <SectionTitle heading={"PROJECTS"} />
         <motion.div
           variants={fadein("left", 0.3)}

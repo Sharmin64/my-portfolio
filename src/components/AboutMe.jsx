@@ -14,7 +14,7 @@ const AboutMe = () => {
   return (
     <div
       id="about"
-      className="py-8 lg:py-28 lg:h-screen lg:mt-14 flex items-center"
+      className="py-8 lg:py-28 py-24 px-10 lg:px-12 lg:h-screen lg:mt-14 flex items-center"
     >
       <div className="container mx-auto">
         <div className="flex flex-col gap-y-12 lg:flex-row-reverse lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen">
