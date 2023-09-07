@@ -36,9 +36,9 @@ const ContactMe = () => {
   return (
     <section
       id="contact"
-      className="my-16 mt-32 py-8 px-10 lg:py-24 lg:h-screen flex items-center"
+      className="lg:my-18 py-8 px-10 lg:py-24 lg:h-screen flex items-center"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto my-28">
         <div className="flex flex-col lg:flex-row">
           <motion.div
             variants={fadein("right", 0.3)}
