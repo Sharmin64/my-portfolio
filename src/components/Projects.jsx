@@ -2,7 +2,7 @@ import React from "react";
 import {motion} from "framer-motion";
 import {fadein} from "../hooks/fadein";
 import img1 from "../assets/logoman/corepower/coreK.jpeg";
-import img2 from "../assets/logoman/toyland/barbiG.jpg";
+import img2 from "../assets/logoman/toyland/barbiD.jpeg";
 import img3 from "../assets/logoman/foodValley/chef_2.jpg";
 import img4 from "../assets/projects/job-portal-1.jpg";
 

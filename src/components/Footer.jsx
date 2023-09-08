@@ -6,7 +6,7 @@ import {MdEmail, MdWhatsapp} from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="mb-36 grid grid-col-2 gap-4">
+    <div className="grid grid-col-2 gap-4">
       <footer className="footer p-10  text-base-content">
         <div>
           <img
